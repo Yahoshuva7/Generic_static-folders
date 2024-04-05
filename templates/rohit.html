@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/.css' %}">
+</head>
+<body>
+    
+    <center>
+        <h1> rohit is best captain</h1>
+        <img src="{% static 'images/rohit.jpeg' %}" alt="img not found"  height="300px" width="300px">
+        <a href="{% url 'styles' %}">Click on it to see dhoni</a>
+    </center>
+</body>
+</html>

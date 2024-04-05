@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/.css' %}">
+</head>
+<body>
+    <center>
+        <h1>TO display the images,css,js  we are going to using html page</h1>
+        <img src="{% static 'images/dhoni.jpeg' %}" alt="Image not found" height="300px",width="300px">
+
+        <a href="{% url 'rohit' %}">Click on it to see rohit</a>
+
+    </center>
+
+</body>
+</html>
